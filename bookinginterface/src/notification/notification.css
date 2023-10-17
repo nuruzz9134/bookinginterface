@@ -1,0 +1,39 @@
+
+
+.all_notifications{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.notifications_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.single_notification{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+    width: 70%;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(226, 248, 226);
+}
+
+.notification_delete button{
+    padding: 8px;
+    margin: 13px;
+}
+.notification_delete button:hover{
+    background-color: red;
+}

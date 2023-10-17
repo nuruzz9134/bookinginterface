@@ -1,0 +1,145 @@
+
+/* ----------------seat--------------- */
+
+.single-seat{
+    width: 35px;
+    height: 25px;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+
+.single-seat button{
+    width: 100%;
+    height: 100%;
+}
+
+.change-butt-colr{
+    color: brown;
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+}
+
+.seat-booking-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choice-seat{
+    margin-top: 50px;
+}
+.seat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-side-seats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.right-side-seats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 175px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.confirn-seat-btn{
+    font-size: 17px;
+    background-color: rgb(24, 176, 140);
+    color: white;
+    border-radius: 10%;
+}
+
+/* -------------      ------------ */
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid;
+    margin: 10px;
+}
+
+/* ----------  confirm booking  --------- */
+
+.booking-confirm{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.conf-booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    border: 1px solid;
+}
+
+.conf-booking span{
+    margin-left: 50px;
+}
+
+
+/* ------------------------------- */
+
+  .custom-notification {
+
+    border: solid 1px black;
+    width: 400px;
+    border-radius:10px ;
+    /* margin-left: 36%; */
+    margin-top: 160px;
+    flex-direction: column;
+
+  }
+
+
+  .custom-notification-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+
+
+  .close-logo{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .close-logo button{
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    color: rgb(72, 25, 243);
+    margin-bottom: 7px;
+
+  }
+
+  /* ------thankyou page---- */
+  .thankyouPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  /* ---blank page--- */
+  .ticketcancel{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
